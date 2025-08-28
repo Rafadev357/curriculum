@@ -1,11 +1,11 @@
 import './App.css'
-import { Home } from './components/pages/Home'
+import { RouterPrincipal } from './routing/RouterPrincipal'
 
 function App() {
 
   return (
     <div className='App' >
-      <Home/>
+      <RouterPrincipal/>
     </div>
   )
 }
