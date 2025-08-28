@@ -7,7 +7,12 @@ export const Header = () => {
       <nav className='header__nav'>
         <div>Aquí va el logo</div>
         <div>
-          <div>Home</div>
+          <div>
+            <NavLink>
+              <img src='../public/logos/hogar.png' alt='Logo hogar' width='20px' height='20px' />
+              Home
+            </NavLink>
+          </div>
           <div>Sobre mí</div>
           <div>Proyectos</div>
           <div>Curriculum</div>
