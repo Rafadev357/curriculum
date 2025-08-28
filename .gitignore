@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+*.otf
+*.ttf
+*.woff
+*.woff2
+*.eot
+*.md
+
+FFL.txt
