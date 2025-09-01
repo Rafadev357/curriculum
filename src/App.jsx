@@ -4,7 +4,7 @@ import { RouterPrincipal } from './routing/RouterPrincipal'
 function App() {
 
   return (
-    <div className='App' >
+    <div className='content' >
       <RouterPrincipal/>
     </div>
   )
