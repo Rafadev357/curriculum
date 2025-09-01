@@ -5,17 +5,19 @@ export const Header = () => {
   return (
     <div className='content__header'>
       <nav className='header__nav'>
-        <div>Aquí va el logo</div>
-        <div>
-          <div>
+        <div className='nav__logo'>
+          <img src='../public/logos/r.png' alt='Letra R' width='50px' height='50px' />
+        </div>
+        <div className='nav__items'>
+          <div className='nav__item'>
             <NavLink>
               <img src='../public/logos/hogar.png' alt='Logo hogar' width='20px' height='20px' />
               Home
             </NavLink>
           </div>
-          <div>Sobre mí</div>
-          <div>Proyectos</div>
-          <div>Curriculum</div>
+          <div className='nav__item'>Sobre mí</div>
+          <div className='nav__item'>Proyectos</div>
+          <div className='nav__item'>Curriculum</div>
         </div>
       </nav>
     </div>
