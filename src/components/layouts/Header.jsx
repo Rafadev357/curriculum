@@ -7,6 +7,7 @@ export const Header = () => {
       <nav className='header__nav'>
         <div className='nav__logo'>
           <img src='../public/logos/r.png' alt='Letra R' width='50px' height='50px' />
+          <img src='../public/logos/re.png' alt='Letra D' width= '50px' height='50px' />
         </div>
         <div className='nav__items'>
           <div className='nav__item'>
