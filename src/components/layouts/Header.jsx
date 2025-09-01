@@ -6,8 +6,7 @@ export const Header = () => {
     <div className='content__header'>
       <nav className='header__nav'>
         <div className='nav__logo'>
-          <img src='../public/logos/r.png' alt='Letra R' width='50px' height='50px' />
-          <img src='../public/logos/re.png' alt='Letra D' width= '50px' height='50px' />
+          <img src='../public/logos/logotipo.png' alt='Letra R' width='120px' height='80px' />
         </div>
         <div className='nav__items'>
             <NavLink className='nav__item'>
