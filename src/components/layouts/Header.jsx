@@ -10,15 +10,23 @@ export const Header = () => {
           <img src='../public/logos/re.png' alt='Letra D' width= '50px' height='50px' />
         </div>
         <div className='nav__items'>
-          <div className='nav__item'>
-            <NavLink>
+            <NavLink className='nav__item'>
               <img src='../public/logos/hogar.png' alt='Logo hogar' width='20px' height='20px' />
-              Home
+              <span>Home</span>
             </NavLink>
-          </div>
-          <div className='nav__item'>Sobre mí</div>
-          <div className='nav__item'>Proyectos</div>
-          <div className='nav__item'>Curriculum</div>
+          
+          <NavLink className='nav__item'>
+            <img src='../public/logos/usuario.png' alt='Logo usuario' width='20px' height='20px'/>
+            <span>Sobre mí</span>
+          </NavLink>
+          <NavLink className='nav__item'>
+            <img src='../public/logos/project-management.png' alt='Logo proyecto' width='20px' height='20px'/>
+            <span>Proyectos</span>
+          </NavLink>
+          <NavLink className='nav__item'>
+            <img src='../public/logos/resumen.png' alt='Logo curriculum' width='20px' height='20px'/>
+            <span>Currículum</span>
+          </NavLink>
         </div>
       </nav>
     </div>
