@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 export const Header = () => {
   return (
-    <div className='content__header'>
+    <>
       <nav className='header__nav'>
         <div className='nav__logo'>
           <img src='../public/logos/logotipo.png' alt='Letra R' width='120px' height='80px' />
@@ -28,6 +28,6 @@ export const Header = () => {
           </NavLink>
         </div>
       </nav>
-    </div>
+    </>
   )
 }
