@@ -48,8 +48,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0rem 0.2rem 2rem inset #4c099e,
-                0rem 0.2rem 2.5rem #4c099e;
+    box-shadow: 0rem 0.2rem 2rem inset #4c099e8e,
+                0rem 0.2rem 2.5rem #4c099e81;
 }
 
 .nav__items a{
