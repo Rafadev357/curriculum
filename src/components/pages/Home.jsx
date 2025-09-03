@@ -25,7 +25,14 @@ export const Home = () => {
       </div>
       <div className="content__box">
         <div className="content__home">
-          <div className="about__picture">Aqui va una imagen</div>
+          <div className="about__picture">
+            <img
+              src="../public/logos/robot-removebg-preview.png"
+              alt="robot retro"
+              width="150px"
+              height="150px"
+            />
+          </div>
           <div className="about__text">
             <h2>Un poco de mí</h2>
             <div className="text__animation"></div>
