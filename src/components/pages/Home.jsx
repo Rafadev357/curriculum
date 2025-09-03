@@ -14,12 +14,18 @@ export const Home = () => {
             <span className="spn__dev">Web Developer</span>
           </div>
           <div className="home__picture">
-            <img src="../public/logos/ordenador-removebg-preview.png" alt="ordenador retro" width='150px' height='150px' />
+            <img
+              src="../public/logos/ordenador-removebg-preview.png"
+              alt="ordenador retro"
+              width="150px"
+              height="150px"
+            />
           </div>
         </div>
       </div>
       <div className="content__box">
-        <div className="content__about">
+        <div className="content__home">
+          <div className="about__picture">Aqui va una imagen</div>
           <div className="about__text">
             <h2>Un poco de mí</h2>
             <p>
@@ -36,7 +42,6 @@ export const Home = () => {
               dui. Aliquam nec nisi non neque aliquam dapibus.
             </p>
           </div>
-          <div className="about__picture">Aqui va una imagen</div>
         </div>
       </div>
     </>
