@@ -4,14 +4,14 @@ export const Footer = () => {
   return (
     <div className="footer">
       <div className="footer__row">
-        <div className="footer__text">
+        <div className="footer__box">
           <h3>Diseñado y Desarrollado por Rafael Morales</h3>
         </div>
         <div className="footer__box">
-          <div>
+          <div className="footer__img">
             <img src="../public/logos/r.png" width='15rem' height='20rem' />
           </div>
-          <div>
+          <div className="footer__img">
             <img src="../public/logos/re.png" width='15rem' height='20rem' />
           </div>
         </div>
