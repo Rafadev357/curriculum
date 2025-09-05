@@ -1,6 +1,10 @@
 import React from "react";
+import { Imagen } from "../../hooks/Imagen";
 
 export const Footer = () => {
+
+  const imgLogoFooter = 'logo-RD';
+
   return (
     <div className="footer">
       <div className="footer__row">
@@ -8,12 +12,13 @@ export const Footer = () => {
           <h3>Diseñado y Desarrollado por Rafael Morales</h3>
         </div>
         <div className="footer__box">
-          <div className="footer__img">
+          <Imagen nombreImg={imgLogoFooter}/>
+          {/*<div className="footer__img">
             <img src="../public/logos/r.png" width='15rem' height='20rem' />
           </div>
           <div className="footer__img">
             <img src="../public/logos/re.png" width='15rem' height='20rem' />
-          </div>
+          </div>*/}
         </div>
         <div className="body__icons">
           <ul className="footer__icons">

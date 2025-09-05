@@ -1,9 +1,15 @@
 import React from "react";
 import { Imagen } from "../../hooks/Imagen";
 
+/**
+ * Importo el hook Imagen para mostrar las imagenes correspondiente
+ * según se le pase el id publico por parámetro
+ */
+
 export const Home = () => {
   const imgRobot = 'robot-remove';
   const imgOrdenador = 'ordenador-retro';
+  
   return (
     <>
       <div className="content__box">
