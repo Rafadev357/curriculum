@@ -1,5 +1,4 @@
 import React from 'react';
-import { RouterPrincipal } from './routing/RouterPrincipal';
 import { Cloudinary } from '@cloudinary/url-gen/index';
 import {AdvancedImage} from '@cloudinary/react';
 import {fill} from "@cloudinary/url-gen/actions/resize";
@@ -15,7 +14,7 @@ import {fill} from "@cloudinary/url-gen/actions/resize";
 
 
 
-export const Imagen = () => {
+export const Imagen = ({nombreImg}) => {
 
     // Creo una instancia y le doy a la propiedad cloudName el nombre de mi cuenta
   const cld = new Cloudinary({
@@ -25,7 +24,7 @@ export const Imagen = () => {
   });
 
   // Instancio  un objeto imagen de cloudinary con id publico robot-remove
-  const myImg = cld.image('robot-remove');
+  const myImg = cld.image(nombreImg);
 
   // Redimensiono la imagen usando el metodo fill() como manera de ajustar o recortar
   myImg.resize(fill().width(250).height(250));

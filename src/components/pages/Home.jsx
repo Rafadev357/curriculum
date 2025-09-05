@@ -2,6 +2,8 @@ import React from "react";
 import { Imagen } from "../../hooks/Imagen";
 
 export const Home = () => {
+  const imgRobot = 'robot-remove';
+  const imgOrdenador = 'ordenador-retro';
   return (
     <>
       <div className="content__box">
@@ -15,19 +17,20 @@ export const Home = () => {
             <span className="spn__dev">Web Developer</span>
           </div>
           <div className="home__picture">
-            <img
+            <Imagen nombreImg={imgOrdenador}/>
+            {/*<img
               src="../public/logos/ordenador-removebg-preview.png"
               alt="ordenador retro"
               width="150px"
               height="150px"
-            />
+            />*/}
           </div>
         </div>
       </div>
       <div className="content__box">
         <div className="content__home">
           <div className="about__picture">
-            <Imagen/>
+            <Imagen nombreImg={imgRobot}/>
             {/*<img
               src="../public/logos/robot-removebg-preview.png"
               alt="robot retro"
