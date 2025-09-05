@@ -16,43 +16,23 @@ export const Footer = () => {
         </div>
         <div className="footer__box">
           <Imagen nombreImg={imgLogoFooter}/>
-          {/*<div className="footer__img">
-            <img src="../public/logos/r.png" width='15rem' height='20rem' />
-          </div>
-          <div className="footer__img">
-            <img src="../public/logos/re.png" width='15rem' height='20rem' />
-          </div>*/}
         </div>
         <div className="body__icons">
           <ul className="footer__icons">
             <li className="icons">
               <a href="https://x.com/RafaDev3590">
               <Imagen nombreImg={icon_x}/>
-                {/*<img
-                  src="../public/logos/gorjeo.png"
-                  width="10rem"
-                  height="10rem"
-                />*/}
+        
               </a>
             </li>
             <li className="icons">
               <a href="https://github.com/Rafadev357">
               <Imagen nombreImg={icon_github}/>
-                {/*<img
-                  src="../public/logos/github.png"
-                  width="10rem"
-                  height="10rem"
-                />*/}
               </a>
             </li>
             <li className="icons">
               <a href="www.linkedin.com/in/rafael-morales-sánchez-028aa7b4">
               <Imagen nombreImg={icon_linkedin}/>
-                {/*<img
-                  src="../public/logos/social.png"
-                  width="10rem"
-                  height="10rem"
-                />*/}
               </a>
             </li>
           </ul>
