@@ -1,4 +1,5 @@
 import React from "react";
+import { Imagen } from "../../hooks/Imagen";
 
 export const Home = () => {
   return (
@@ -26,12 +27,13 @@ export const Home = () => {
       <div className="content__box">
         <div className="content__home">
           <div className="about__picture">
-            <img
+            <Imagen/>
+            {/*<img
               src="../public/logos/robot-removebg-preview.png"
               alt="robot retro"
               width="150px"
               height="150px"
-            />
+            />*/}
           </div>
           <div className="about__text">
             <h2>Un poco de mí</h2>

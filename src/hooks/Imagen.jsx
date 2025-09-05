@@ -24,7 +24,15 @@ export const Imagen = () => {
     }
   });
 
+  // Instancio  un objeto imagen de cloudinary con id publico robot-remove
+  const myImg = cld.image('robot-remove');
+
+  // Redimensiono la imagen usando el metodo fill() como manera de ajustar o recortar
+  myImg.resize(fill().width(250).height(250));
+
   return (
-    <div>Imagen</div>
+    <>
+        <AdvancedImage cldImg={myImg}/>
+    </>
   )
 }
