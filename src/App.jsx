@@ -1,13 +1,11 @@
-import './App.css'
-import { RouterPrincipal } from './routing/RouterPrincipal'
+import "./App.css";
 
 function App() {
-
   return (
-    <div className='layout' >
-      <RouterPrincipal/>
+    <div className="layout">
+      <RouterPrincipal />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
