@@ -1,9 +1,25 @@
-html::-webkit-scrollbar{
-  width: 2px;
+::-webkit-scrollbar{
+  width: 10px;
 }
 
-html::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb{
   background: #20b644;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #17a137;
+}
+
+::-webkit-scrollbar-thumb:active{
+  background: #11832b;
+}
+::-webkit-scrollbar-track{
+  background: #2aec57af;
+}
+
+::-webkit-scrollbar-button:single-button{
+  background: #5d0ec0;
 }
 
 body {
