@@ -4,6 +4,9 @@ import { Imagen } from "../../hooks/Imagen";
 export const Footer = () => {
 
   const imgLogoFooter = 'logo-RD';
+  const icon_x = 'icon-x';
+  const icon_linkedin = 'icon-linkedin';
+  const icon_github = 'icon-github';
 
   return (
     <div className="footer">
@@ -24,29 +27,32 @@ export const Footer = () => {
           <ul className="footer__icons">
             <li className="icons">
               <a href="https://x.com/RafaDev3590">
-                <img
+              <Imagen nombreImg={icon_x}/>
+                {/*<img
                   src="../public/logos/gorjeo.png"
                   width="10rem"
                   height="10rem"
-                />
+                />*/}
               </a>
             </li>
             <li className="icons">
               <a href="https://github.com/Rafadev357">
-                <img
+              <Imagen nombreImg={icon_github}/>
+                {/*<img
                   src="../public/logos/github.png"
                   width="10rem"
                   height="10rem"
-                />
+                />*/}
               </a>
             </li>
             <li className="icons">
               <a href="www.linkedin.com/in/rafael-morales-sánchez-028aa7b4">
-                <img
+              <Imagen nombreImg={icon_linkedin}/>
+                {/*<img
                   src="../public/logos/social.png"
                   width="10rem"
                   height="10rem"
-                />
+                />*/}
               </a>
             </li>
           </ul>
